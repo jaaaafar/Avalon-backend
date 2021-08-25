@@ -1,0 +1,11 @@
+* Confirm that the parsers are still working fine every now and then
+* Check the auth route
+* try catch in case database is down or in CRUD handling
+* change console.log to console.error for important exceptions
+
+
+./node_modules/.bin/env-cmd -f ./config/dev.env node .\testing.js
+
+env-cmd -f ../../config/dev.env node ../..\testing.js
+
+
